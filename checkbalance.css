@@ -1,0 +1,118 @@
+body
+{
+	
+	margin:0;
+	padding:0;
+    background:url("pay.jpg");
+	background-size:cover;
+	font-family: sans-serif; 
+    background-color: #8a2be2;
+}
+
+.container
+{
+	border: 2px solid;
+	position:absolute;
+	top:50%;
+    left:25%;
+	transform: translate(-50%, -50%);
+	width:350px;
+	height:350px;
+	padding:80px 40px;
+	box-sizing: border-box;
+
+    border-radius: 25px;
+    
+
+	
+}
+
+
+
+h2
+{
+	margin:0;
+	padding:0 0 20px;
+	color:#151314;
+	text-align:center;
+} 
+
+
+
+.container p
+{
+	padding:0;
+	margin:0;
+	font-weight:bold;
+	color:#fff;
+	
+} 
+
+
+.container input
+{
+	width:100%;
+	margin-bottom: 20px; 
+}
+
+.container input[type="text"], .loginBox input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid rgb(55, 54, 54);
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:rgb(28, 24, 24);
+	font-size: 16px;
+	
+	
+	
+}
+
+
+.containers
+{
+    text-align: center;
+	border:black;
+	outline:none;
+	height: 40px;
+	color:#fff;
+	font-size:16px;
+	background: rgb(255,38,126);
+	cursor:pointer;
+	border-radius:25px;
+}
+
+
+.containers:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+ 
+ 
+ 
+
+.container a
+{
+	color: #fff;
+	font-size:14px;
+	font-weight:bold;
+} 
+
+
+::placeholder
+{
+	color:rgba(34, 32, 32, 0.5); 
+}
+.user
+{
+	width:100px;
+	height:100px; 
+	overflow:hidden;
+	position:absolute;
+	top:calc(-100px/2);
+	left:calc(50% - 50px);
+	border-radius:50%;
+}
+ 
